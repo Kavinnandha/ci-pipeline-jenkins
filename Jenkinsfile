@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs "node" // Optional if NodeJS is installed globally
-    }
-
     stages {
         stage('Checkout') {
             steps {
